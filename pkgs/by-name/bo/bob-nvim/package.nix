@@ -32,7 +32,7 @@ rustPlatform.buildRustPackage (finalAttrs: {
   '';
 
   meta = {
-    description = "A version manager for neovim";
+    description = "Version manager for neovim";
     homepage = "https://github.com/MordechaiHadad/bob";
     license = lib.licenses.mit;
     maintainers = with lib.maintainers; [ kaasboteram ];
